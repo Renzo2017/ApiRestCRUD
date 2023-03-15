@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ApiServiceProc.Negocio/1.0.0": {
+        "dependencies": {
+          "ApiServiceProc.Entidades": "1.0.0"
+        },
+        "runtime": {
+          "ApiServiceProc.Negocio.dll": {}
+        }
+      },
+      "ApiServiceProc.Entidades/1.0.0": {
+        "runtime": {
+          "ApiServiceProc.Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApiServiceProc.Negocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiServiceProc.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

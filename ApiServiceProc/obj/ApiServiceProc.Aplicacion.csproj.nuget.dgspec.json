@@ -1,0 +1,304 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc\\ApiServiceProc.Aplicacion.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj",
+        "projectName": "ApiServiceProc.Entidades",
+        "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj",
+        "packagesPath": "C:\\Users\\elren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\elren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\ApiServiceProc.Negocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\ApiServiceProc.Negocio.csproj",
+        "projectName": "ApiServiceProc.Negocio",
+        "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\ApiServiceProc.Negocio.csproj",
+        "packagesPath": "C:\\Users\\elren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\elren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj": {
+                "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Servicios\\ApiServiceProc.Servicios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Servicios\\ApiServiceProc.Servicios.csproj",
+        "projectName": "ApiServiceProc.Servicios",
+        "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Servicios\\ApiServiceProc.Servicios.csproj",
+        "packagesPath": "C:\\Users\\elren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Servicios\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\elren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj": {
+                "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj"
+              },
+              "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\ApiServiceProc.Negocio.csproj": {
+                "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\ApiServiceProc.Negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc\\ApiServiceProc.Aplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc\\ApiServiceProc.Aplicacion.csproj",
+        "projectName": "ApiServiceProc.Aplicacion",
+        "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc\\ApiServiceProc.Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\elren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\elren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj": {
+                "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj"
+              },
+              "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\ApiServiceProc.Negocio.csproj": {
+                "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\ApiServiceProc.Negocio.csproj"
+              },
+              "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Servicios\\ApiServiceProc.Servicios.csproj": {
+                "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Servicios\\ApiServiceProc.Servicios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
