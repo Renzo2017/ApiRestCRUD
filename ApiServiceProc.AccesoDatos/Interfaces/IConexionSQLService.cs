@@ -8,6 +8,6 @@ namespace ApiServiceProc.AccesoDatos.Interfaces
 {
     public interface IConexionSQLService
     {
-        public string GetConexionSQL();
+        public string ObtenerCadenaSQL();
     }
 }

@@ -17,16 +17,83 @@ namespace ApiServiceProc.Aplicacion.Controllers
         }
 
         [HttpGet]
-        public async Task<List<Genero>> obtener()
+        public async Task<IActionResult> Obtener()
         {
-            return await _generoService.Obtener();
+            try
+            {
+                return Ok(await _generoService.Obtener());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Guardar(Genero genero)
+        {
+            try
+            {
+                var listGenero = await _generoService.Guardar(genero);
+
+                if (listGenero.Count > 0)
+                {
+                    return Ok(listGenero);
+                }
+                else 
+                {
+                    return BadRequest("No se encontraron resultados");
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Actualizar(Genero genero)
+        {
+            try
+            {
+                var generoEncontrado = (await _generoService.Obtener()).FirstOrDefault(g => g.Id == genero.Id);
+
+                if (generoEncontrado != null)
+                {
+                    return Ok(await _generoService.Actualizar(genero));
+                }
+                else
+                {
+                    return BadRequest("No existe ningún genero con este ID");
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
 
-        [HttpPost]
-        public async Task<List<Genero>> Guardar(Genero genero)
+        [HttpDelete]
+        public async Task<IActionResult> Borrar(int id)
         {
-            return await _generoService.Guardar(genero);
+            try
+            {
+                var generoEncontrado = (await _generoService.Obtener()).FirstOrDefault(g => g.Id == id);
+
+                if (generoEncontrado != null)
+                {
+                    return Ok(await _generoService.Borrar(id));
+                }
+                else
+                {
+                    return BadRequest("No existe ningún genero con este ID");
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

@@ -10,6 +10,7 @@ using System.Data.Common;
 using Microsoft.Win32.SafeHandles;
 using System.Data.SqlClient;
 using ApiServiceProc.AccesoDatos.Interfaces;
+using System.Linq;
 
 namespace ApiServiceProc.Negocio.Implementacion
 {
@@ -27,10 +28,10 @@ namespace ApiServiceProc.Negocio.Implementacion
             string consulta = "Select * From Genero";
             List<Genero> lista = new List<Genero>();
 
-            using (var conn = new SqlConnection(_conexionSQLService.GetConexionSQL()))
+            using (var cn = new SqlConnection(_conexionSQLService.ObtenerCadenaSQL()))
             {
-                conn.Open();
-                using var cmd = conn.CreateCommand();
+                await cn.OpenAsync();
+                using var cmd = cn.CreateCommand();
                 cmd.CommandText = consulta;
 
                 using var reader = await ((DbCommand)cmd).ExecuteReaderAsync();
@@ -41,24 +42,22 @@ namespace ApiServiceProc.Negocio.Implementacion
                         Id = reader.GetInt32(0),
                         Descripcion = reader.GetString(1)
                     };
-
                     lista.Add(genero);
                 }
             }
-
             return lista;
         }
 
         public async Task<List<Genero>> Guardar(Genero genero)
         {
-            string consulta = "Insert into Genero (descripcion) values (@descripcion)";
+            string consultaBuscar = "Insert into Genero (descripcion) values (@descripcion)";
 
-            using (var cn = new SqlConnection(_conexionSQLService.GetConexionSQL()))
+            using (var cn = new SqlConnection(_conexionSQLService.ObtenerCadenaSQL()))
             {
                 cn.Open();
 
                 using var comando = cn.CreateCommand();
-                comando.CommandText = consulta;
+                comando.CommandText = consultaBuscar;
                 var descripcionParametro = comando.CreateParameter();
 
                 descripcionParametro.ParameterName = "@descripcion";
@@ -70,14 +69,56 @@ namespace ApiServiceProc.Negocio.Implementacion
             return await Obtener();
         }
 
-        public Task<List<Genero>> Actualizar(Genero genero)
+        public async Task<List<Genero>> Actualizar(Genero genero)
         {
-            throw new NotImplementedException();
+            string consultaActualizar = "Update Genero Set descripcion =@descripcion where id=@id";
+
+            using (var cn = new SqlConnection(_conexionSQLService.ObtenerCadenaSQL()))
+            {
+                await cn.OpenAsync();
+
+                using var comando = cn.CreateCommand();
+                comando.CommandText = consultaActualizar;
+
+                var descripcionParametro = comando.CreateParameter();
+                var idParametro = comando.CreateParameter();
+
+                descripcionParametro.ParameterName = "@descripcion";
+                descripcionParametro.Value = genero.Descripcion;
+
+                idParametro.ParameterName = "@id";
+                idParametro.Value = genero.Id;
+
+                comando.Parameters.Add(descripcionParametro);
+                comando.Parameters.Add(idParametro);
+
+                comando.ExecuteNonQuery();
+            }
+            return await Obtener();
+
         }
 
-        public Task<List<Genero>> Borrar(int id)
+        public async Task<List<Genero>> Borrar(int id)
         {
-            throw new NotImplementedException();
+            string consultaBorrar = "Delete from Genero Where id = @id";
+
+            using var cn = new SqlConnection(_conexionSQLService.ObtenerCadenaSQL());
+            {
+                await cn.OpenAsync();
+
+                using var comando = cn.CreateCommand();
+                comando.CommandText = consultaBorrar;
+
+                var idParametro = comando.CreateParameter();
+
+                idParametro.ParameterName = "@id";
+                idParametro.Value = id;
+
+                comando.Parameters.Add(idParametro);
+
+                await comando.ExecuteNonQueryAsync();
+            }
+            return await Obtener();
         }
     }
 }

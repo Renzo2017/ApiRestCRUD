@@ -12,7 +12,7 @@ namespace ApiServiceProc.AccesoDatos.Implementacion
             this._iconfiguration = configuration;
         }
 
-        public string GetConexionSQL()
+        public string ObtenerCadenaSQL()
         {
             return _iconfiguration.GetConnectionString("ConexionSQL");
         }
