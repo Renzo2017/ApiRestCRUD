@@ -32,3 +32,5 @@ C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.Servicios\obj\Debug\net6.
 C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.Servicios\obj\Debug\net6.0\refint\ApiServiceProc.Servicios.dll
 C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.Servicios\obj\Debug\net6.0\ApiServiceProc.Servicios.pdb
 C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.Servicios\obj\Debug\net6.0\ref\ApiServiceProc.Servicios.dll
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.Servicios\bin\Debug\net6.0\ApiServiceProc.AccesoDatos.dll
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.Servicios\bin\Debug\net6.0\ApiServiceProc.AccesoDatos.pdb

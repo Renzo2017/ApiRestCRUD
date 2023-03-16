@@ -110,3 +110,5 @@ C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc\obj\Debug\net6.0\refint\A
 C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc\obj\Debug\net6.0\ApiServiceProc.Aplicacion.pdb
 C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc\obj\Debug\net6.0\ApiServiceProc.Aplicacion.genruntimeconfig.cache
 C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc\obj\Debug\net6.0\ref\ApiServiceProc.Aplicacion.dll
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc\bin\Debug\net6.0\ApiServiceProc.AccesoDatos.dll
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc\bin\Debug\net6.0\ApiServiceProc.AccesoDatos.pdb

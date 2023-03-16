@@ -1,0 +1,12 @@
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\bin\Debug\net6.0\ApiServiceProc.AccesoDatos.deps.json
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\bin\Debug\net6.0\ApiServiceProc.AccesoDatos.dll
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\bin\Debug\net6.0\ApiServiceProc.AccesoDatos.pdb
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\obj\Debug\net6.0\ApiServiceProc.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\obj\Debug\net6.0\ApiServiceProc.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\obj\Debug\net6.0\ApiServiceProc.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\obj\Debug\net6.0\ApiServiceProc.AccesoDatos.AssemblyInfo.cs
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\obj\Debug\net6.0\ApiServiceProc.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\obj\Debug\net6.0\ApiServiceProc.AccesoDatos.dll
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\obj\Debug\net6.0\refint\ApiServiceProc.AccesoDatos.dll
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\obj\Debug\net6.0\ApiServiceProc.AccesoDatos.pdb
+C:\Users\elren\Source\Repos\ApiRestCRUD\ApiServiceProc.AccesoDatos\obj\Debug\net6.0\ref\ApiServiceProc.AccesoDatos.dll

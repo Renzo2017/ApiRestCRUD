@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3z8u4puBjpEFA50VvZh38RTch+NXRhD0ff4tptG6iMRQ4c9oihJ7XhDx1UFDkXGbMESVYwWcYwu6ntO9HaqHwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.AccesoDatos\\ApiServiceProc.AccesoDatos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elren\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\elren\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\elren\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\elren\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

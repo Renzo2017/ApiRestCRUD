@@ -275,6 +275,14 @@
           }
         }
       },
+      "ApiServiceProc.AccesoDatos/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0"
+        },
+        "runtime": {
+          "ApiServiceProc.AccesoDatos.dll": {}
+        }
+      },
       "ApiServiceProc.Entidades/1.0.0": {
         "runtime": {
           "ApiServiceProc.Entidades.dll": {}
@@ -282,7 +290,9 @@
       },
       "ApiServiceProc.Negocio/1.0.0": {
         "dependencies": {
-          "ApiServiceProc.Entidades": "1.0.0"
+          "ApiServiceProc.AccesoDatos": "1.0.0",
+          "ApiServiceProc.Entidades": "1.0.0",
+          "System.Data.SqlClient": "4.8.5"
         },
         "runtime": {
           "ApiServiceProc.Negocio.dll": {}
@@ -290,6 +300,7 @@
       },
       "ApiServiceProc.Servicios/1.0.0": {
         "dependencies": {
+          "ApiServiceProc.AccesoDatos": "1.0.0",
           "ApiServiceProc.Entidades": "1.0.0",
           "ApiServiceProc.Negocio": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
@@ -496,6 +507,11 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+    },
+    "ApiServiceProc.AccesoDatos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ApiServiceProc.Entidades/1.0.0": {
       "type": "project",

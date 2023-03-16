@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ApiServiceProc.AccesoDatos\ApiServiceProc.AccesoDatos.csproj" />
     <ProjectReference Include="..\ApiServiceProc.Entidades\ApiServiceProc.Entidades.csproj" />
     <ProjectReference Include="..\ApiServiceProc.Negocio\ApiServiceProc.Negocio.csproj" />
   </ItemGroup>

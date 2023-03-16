@@ -384,6 +384,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "ApiServiceProc.AccesoDatos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApiServiceProc.AccesoDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiServiceProc.AccesoDatos.dll": {}
+        }
+      },
       "ApiServiceProc.Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -398,7 +411,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "ApiServiceProc.Entidades": "1.0.0"
+          "ApiServiceProc.AccesoDatos": "1.0.0",
+          "ApiServiceProc.Entidades": "1.0.0",
+          "System.Data.SqlClient": "4.8.5"
         },
         "compile": {
           "bin/placeholder/ApiServiceProc.Negocio.dll": {}
@@ -1097,6 +1112,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ApiServiceProc.AccesoDatos/1.0.0": {
+      "type": "project",
+      "path": "../ApiServiceProc.AccesoDatos/ApiServiceProc.AccesoDatos.csproj",
+      "msbuildProject": "../ApiServiceProc.AccesoDatos/ApiServiceProc.AccesoDatos.csproj"
+    },
     "ApiServiceProc.Entidades/1.0.0": {
       "type": "project",
       "path": "../ApiServiceProc.Entidades/ApiServiceProc.Entidades.csproj",
@@ -1110,6 +1130,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ApiServiceProc.AccesoDatos >= 1.0.0",
       "ApiServiceProc.Entidades >= 1.0.0",
       "ApiServiceProc.Negocio >= 1.0.0",
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
@@ -1154,6 +1175,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.AccesoDatos\\ApiServiceProc.AccesoDatos.csproj": {
+              "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.AccesoDatos\\ApiServiceProc.AccesoDatos.csproj"
+            },
             "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj": {
               "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Entidades\\ApiServiceProc.Entidades.csproj"
             },

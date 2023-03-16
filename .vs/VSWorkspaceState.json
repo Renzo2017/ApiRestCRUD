@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ApiServiceProc.Negocio",
+    "\\ApiServiceProc.Negocio\\Implementacion"
   ],
-  "SelectedNode": "\\C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD",
+  "SelectedNode": "\\ApiServiceProc.Negocio\\Implementacion\\GeneroService.cs",
   "PreviewInSolutionExplorer": false
 }
