@@ -1,8 +1,10 @@
-﻿using ApiServiceProc.AccesoDatos.Implementacion;
+﻿#region Bibliotecas
+using ApiServiceProc.AccesoDatos.Implementacion;
 using ApiServiceProc.AccesoDatos.Interfaces;
 using ApiServiceProc.Negocio.Implementacion;
 using ApiServiceProc.Negocio.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
+#endregion
 
 namespace ApiServiceProc.Servicios
 {

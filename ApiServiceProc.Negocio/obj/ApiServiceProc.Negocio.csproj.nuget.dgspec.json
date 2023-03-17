@@ -143,7 +143,7 @@
         "projectName": "ApiServiceProc.Negocio",
         "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\ApiServiceProc.Negocio.csproj",
         "packagesPath": "C:\\Users\\elren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\obj\\",
+        "outputPath": "C:\\Users\\elren\\source\\repos\\ApiRestCRUD\\ApiServiceProc.Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

@@ -1150,7 +1150,7 @@
       "projectName": "ApiServiceProc.Servicios",
       "projectPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Servicios\\ApiServiceProc.Servicios.csproj",
       "packagesPath": "C:\\Users\\elren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elren\\Source\\Repos\\ApiRestCRUD\\ApiServiceProc.Servicios\\obj\\",
+      "outputPath": "C:\\Users\\elren\\source\\repos\\ApiRestCRUD\\ApiServiceProc.Servicios\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

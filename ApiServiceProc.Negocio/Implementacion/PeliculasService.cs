@@ -1,12 +1,7 @@
 ﻿using ApiServiceProc.AccesoDatos.Interfaces;
 using ApiServiceProc.Entidades;
 using ApiServiceProc.Negocio.Interfaces;
-using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ApiServiceProc.Negocio.Implementacion
 {
@@ -90,7 +85,7 @@ namespace ApiServiceProc.Negocio.Implementacion
 
             await comando.ExecuteReaderAsync();
 
-           return await Obtener();
+            return await Obtener();
         }
 
         public async Task<List<object>> Borrar(int id)
