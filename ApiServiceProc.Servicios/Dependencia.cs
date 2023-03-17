@@ -13,6 +13,7 @@ namespace ApiServiceProc.Servicios
             services.AddScoped<IConexionSQLService, conexionSQLService>();
             services.AddScoped<IGeneroService, GeneroService>();
             services.AddScoped<IActorService, ActorService>();
+            services.AddScoped<IPeliculasService, PeliculasService>();
         }
     }
 }

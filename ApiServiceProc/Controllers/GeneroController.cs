@@ -34,16 +34,7 @@ namespace ApiServiceProc.Aplicacion.Controllers
         {
             try
             {
-                var listGenero = await _generoService.Guardar(genero);
-
-                if (listGenero.Count > 0)
-                {
-                    return Ok(listGenero);
-                }
-                else 
-                {
-                    return BadRequest("No se encontraron resultados");
-                }
+                return Ok(await _generoService.Guardar(genero));
             }
             catch (Exception ex)
             {
